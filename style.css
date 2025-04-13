@@ -1,3 +1,6 @@
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+
 body {
     color: rgb(58, 27, 4);
     background-color: bisque;
@@ -86,7 +89,7 @@ footer {
 }
 
 .hlavicka {
-    background-image: url(obrazky/kresleny\ croissantJPG.JPG);
+    background-image: url(obrazky/kresleny_croissantJPG.JPG);
     padding: 150px 30px;
     background-repeat: no-repeat;
     background-position: center;
